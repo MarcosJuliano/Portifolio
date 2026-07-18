@@ -1,0 +1,9 @@
+services:
+  portfolio:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      # Esse mapeamento (volume) serve para altere o HTML/CSS no VS Code 
+      # e para ver a mudança na hora no navegador, sem precisar remontar o container
+      - .:/usr/share/nginx/html
