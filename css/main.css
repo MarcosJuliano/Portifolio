@@ -18,6 +18,11 @@ main .main-content h2 {
     font-size: 2.2em;
 }
 
+div .card-container {
+    display: flex;
+    align-items: center;
+}
+
 main .main-content .text p {
     width: 75%;
     font-size: 1.2em;
